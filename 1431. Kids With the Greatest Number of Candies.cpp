@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<bool> kidsWithCandies(vector<int> candies, int extraCandies) {
+    vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
     vector<bool> result;
     int yes = 0;
     
