@@ -3,7 +3,7 @@ using namespace std;
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
-        string result;
+        string result; //variable for the result
         int i = 0; int j = 0; //counter for word1 and word2
         
         while (i < word1.length() || j < word2.length()) { //Ensure that there are still characters in word1 or word2
@@ -16,6 +16,6 @@ public:
                 j++; //increment to move to the next character
             }
         }
-        return result; //returns the result
+        return result; //returns the value in result variable
     }
 };
